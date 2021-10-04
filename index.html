@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulp Html Include Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/enedis.css">
+  </head>
+  <body>
+  <div id="main">
+  <header>
+    <!-- Barre de navigation en haut -->
+    <div class="navigation">
+      <nav class="liste-navigation">
+        <a class="navElement -actif -home" href="index.php">LOUVE</a>
+
+        <a class="navElement" href="experiences.php">Expériences</a>
+        <a class="navElement" href="studies.php">Scholarité</a>
+        <a class="navElement" href="hobbies.php">Loisirs</a>
+        <a class="navElement" href="skills.php">Compétences</a>
+
+        <a class="navElement -contact" href="cv.php">Télécharger CV</a>
+        <a class="navElement -contact" href="contact.php">Contactez-moi</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Partie principale  -->
+
+  <div class="aboutMe">
+    <div class="description">
+      <h1>Hi! <span class="-blue">I'm Louve.</span></h1>
+      <h1>Great to see you.</h1>
+      <span>A little description</span>
+    </div>
+    <div class="image__citation">
+      <div class="citation">"Une petite citation"</div>
+      <img  class="building" src="./images/img_cv.jpg" alt="image cv"/>
+    </div>
+  </div>
+
+  <!-- Inclusion du footer -->
+  @@include('./piedPage.inc.html')
+
+  </div>
+  </body>
+</html>

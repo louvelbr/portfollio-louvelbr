@@ -1,0 +1,108 @@
+body {
+  margin-left: 115px;
+  margin-right: 115px;
+  color: #323637; }
+
+.navigation {
+  padding-top: 30px;
+  text-align: center; }
+  .navigation .navElement {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px; }
+    .navigation .navElement.-home {
+      margin-top: -10px;
+      float: left;
+      color: #2AA4AE;
+      font-size: 24px;
+      font-weight: bold; }
+    .navigation .navElement.-contact {
+      margin-top: -10px;
+      background-color: #2AA4AE;
+      color: #F9FDFE;
+      float: right; }
+
+.menu {
+  padding-top: 10px; }
+
+.aboutMe {
+  font-family: sans-serif;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row; }
+
+.description {
+  font-size: 30px; }
+  .description .-blue {
+    color: #2AA4AE; }
+
+.citation {
+  padding: 60px 35px 60px 35px;
+  color: white;
+  background-color: #142158;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  padding-top: 35px;
+  height: 50px;
+  width: 200px;
+  margin-top: 500px;
+  left: -110px;
+  position: absolute; }
+  .citation:before {
+    content: "\"";
+    font-size: 50px; }
+
+.image__citation {
+  position: absolute;
+  right: 115px; }
+  .image__citation:after {
+    content: "";
+    background-color: #2AA4AE;
+    width: 500px;
+    height: 515px;
+    position: absolute;
+    right: -115px;
+    z-index: -1;
+    margin-top: 170px; }
+
+img {
+  width: 450px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+footer a {
+  color: rgba(255, 255, 255, 0.6); }
+
+footer i {
+  color: rgba(255, 255, 255, 0.2); }
+
+footer p {
+  margin-bottom: 5px; }
+
+footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: visible;
+  text-align: center;
+  margin: auto;
+  height: 16px;
+  width: 80%; }
+
+footer hr:after {
+  background: #1a1a1a;
+  content: ' E N E D I S ';
+  color: rgba(255, 255, 255, 0.2);
+  padding: 0 4px;
+  position: relative;
+  top: -10px; }
