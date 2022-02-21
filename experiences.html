@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulp Html Include Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="css/experiences.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
+<div id="main">
+    <header>
+        <!-- Barre de navigation en haut -->
+        <div class="navigation">
+            <nav class="liste-navigation">
+                <a class="navElement -actif -home" href="index.html">LOUVE</a>
+
+                <a class="navElement" href="experiences.html">Expériences</a>
+                <a class="navElement" href="studies.html">Scholarité</a>
+                <a class="navElement" href="hobbies.html">Loisirs</a>
+                <a class="navElement" href="skills.html">Compétences</a>
+
+                <a class="navElement -resume" href="resume.html">Télécharger CV</a>
+                <a class="navElement -contact" href="contact.html">Contactez-moi</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Partie principale  -->
+    <div class="experiences">
+    <div class="experiencesPro">
+        <h1>Stage: Groupe Onepoint</h1>
+        <h2>Mai - Août 2021 </h2>
+        <span>Participation à un projet de gestion du parc informatique Drupal pour le client Région Nouvelle-Aquitaine en tant qu'intégrateur HTML/CSS et js :
+            <br>
+            <ul>
+                <li>Etude transverse de l'écosytème réalisé</li>
+                <li>Listing des modules utilisés dans les différents portails</li>
+                <li>Centralisation des bonnes pratiques d'un projet référence</li>
+            <li>Intégration HTML/CSS et js des modules transverses</li>
+            <li>Intégration BO Drupal (twig) des modules transverses</li>
+            </ul>
+</span>
+
+    </div>
+
+    <div class="projects">
+        <h1>Projets Informatiques</h1>
+        <span>
+            <ul>
+                <li>Site de rencontres en HTML/CSS/Javascript/PHP</li>
+<li>Jeu éducatif _ simulation de la colonisation de Mars_ en HTML/CSS/Javascript/PHP</li>
+<li>Bataille Navale en C</li>
+<li>Création d'un simulateur de mots fictifs à partir d'une langue donnée en Pascal</li>
+<li>Programmation d'un jeu de cartes _l'ascenceur_ en Pascal</li>
+            </ul>
+        </span>
+    </div>
+    </div>
+
+
+
+</div>
+<!-- Inclusion du footer -->
+@@include('./piedPage.inc.html')
+
 
 </body>
 </html>

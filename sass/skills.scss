@@ -1,0 +1,41 @@
+.skills{
+margin-top: 150px;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+  /* e.g.
+      1fr 1fr
+      minmax(10px, 1fr) 3fr
+      repeat(5, 1fr)
+      50px auto 100px 1fr
+  */
+  grid-template-rows: 1fr 100px 100px 1fr;
+  /* e.g.
+      min-content 1fr min-content
+      100px 1fr max-content
+  */
+
+
+.IT{
+ grid-column: 1 / span 4;
+  grid-row: 1 / span 2;
+padding: 20px;
+width: 50%;
+    border: 8px solid #2AA4AE;
+    border-radius: 10%;
+  font-size: 30px;
+  margin-right: 20px;
+
+}
+
+.languages{
+ grid-column: 1 / span 4;
+  grid-row: 3/ span 2;
+width:50%;
+padding: 20px;
+    border: 8px solid #2AA4AE;
+    border-radius: 10%;
+  font-size: 30px;
+
+
+}
+}

@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulp Html Include Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="css/skills.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-$END$
+<div id="main">
+    <header>
+        <!-- Barre de navigation en haut -->
+        <div class="navigation">
+            <nav class="liste-navigation">
+                <a class="navElement -actif -home" href="index.html">LOUVE</a>
+
+                <a class="navElement" href="experiences.html">Expériences</a>
+                <a class="navElement" href="studies.html">Scholarité</a>
+                <a class="navElement" href="hobbies.html">Loisirs</a>
+                <a class="navElement" href="skills.html">Compétences</a>
+
+                <a class="navElement -resume" href="resume.html">Télécharger CV</a>
+                <a class="navElement -contact" href="contact.html">Contactez-moi</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Partie principale  -->
+    <div class="skills">
+        <div class="IT">
+            <h1>Compétences Informatiques</h1>
+            <ul>
+                <li>Débutant : R</li>
+                <li>Intermédiaire: Java, MySQL, Pascal, C</li>
+                <li>Avancé: DevWeb - Html/Css/Js, Sass, Php, Twig; Latex </li>
+            </ul>
+</span>
+
+        </div>
+
+        <div class="languages">
+            <h1>Langues</h1>
+            <ul>
+                <li>Français: langue native</li>
+                <li>Anglais: avancé</li>
+                <li>Espagnol: débutant</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</div>
+<!-- Inclusion du footer -->
+@@include('./piedPage.inc.html')
+
+
 </body>
 </html>

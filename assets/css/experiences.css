@@ -1,0 +1,19 @@
+.experiences {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row; }
+
+.experiencesPro {
+  padding: 20px;
+  width: 50%;
+  border: 8px solid #2AA4AE;
+  border-radius: 10%;
+  font-size: 30px;
+  margin-right: 20px; }
+
+.projects {
+  width: 50%;
+  padding: 20px;
+  border: 8px solid #2AA4AE;
+  border-radius: 10%;
+  font-size: 30px; }
