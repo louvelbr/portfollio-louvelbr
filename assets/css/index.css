@@ -45,7 +45,8 @@ body {
   font-family: sans-serif;
   margin-top: 150px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-row: 100px 100px 100px 100px 100px; }
 
 .description {
   margin-top: -50px;
@@ -65,10 +66,18 @@ body {
     border-style: solid;
     border-color: #78E9EC;
     position: absolute;
-    width: 27.509vw;
+    width: 17vw;
     clip-path: polygon(0 80%, 95% 80%, 100% 100%, 5% 100%); }
-  .description .logo {
-    width: 55px; }
+  .description .logo img {
+    position: absolute;
+    display: inline-block;
+    width: 32px; }
+  .description .logo .linkedin {
+    margin-left: 44px; }
+  .description .logo .mail {
+    margin-left: 0px; }
+  .description .logo .github {
+    margin-left: 88px; }
 
 .imageProfile {
   grid-column: span 1;
@@ -86,11 +95,13 @@ body {
     z-index: -1;
     left: 3.5em;
     top: -2.8em;
-    border-width: 9.2em;
+    border-width: 10.2em;
     border-style: solid;
     border-color: #242d74;
     position: absolute;
-    border-radius: 60%; }
+    border-radius: 60%;
+    grid-column: span 1;
+    grid-row: span 1; }
 
 img {
   border-radius: 60%; }
