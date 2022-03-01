@@ -1,7 +1,7 @@
 body{
   margin-left: 115px;
   margin-right: 115px;
-  color: balck;
+  color: black;
   font-family: "Fira Sans";
 }
 
@@ -14,21 +14,23 @@ background-color: #C0F4F6;
   right: 0;
   .liste-navigation{
 padding-top: 20px;
-height : 5.709vw;
+padding-bottom: 20px;
+margin-left:90px;
   }
 
     .navElement{
       text-decoration: none;
       color: #141c1c;
-      font-size: 14px;
+      font-size: 27px;
       padding: 10px 10px 10px 10px;
 
 
         &.-home{
-          float: left;
-          font-size: 24px;
+          position: absolute;
+          left:0;
+          top:0;
+          font-size: 35px;
           font-weight: bold;
-          margin-top: -20px;
         }
 
         &.-contact{
@@ -40,11 +42,19 @@ height : 5.709vw;
         }
 
         &.-resume{
-        margin-right: 20px;
-         background-color: #141c1c;
-          color: white;
-          float: right;
-          margin-top: -20px;
+
+       right: 0;
+           margin-right: 20px;
+           background-color: #141c1c;
+           color: white;
+           float: right;
+           top: 10px;
+           position: absolute;
+        }
+
+        &.-actif{
+        text-decoration: underline;
+        text-underline-offset: 25px;
         }
     }
 }
